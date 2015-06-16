@@ -8,7 +8,7 @@ var sprite;
 
 window.onload = function(){
     canvas = document.getElementById("canvas");
-    var height = document.documentElement.offsetHeight;
+    var height = screen.availWidth;
     canvas.setAttribute("width",height);
     stage = new createjs.Stage(canvas);
 
